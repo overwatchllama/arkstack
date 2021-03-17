@@ -1,0 +1,181 @@
+ark:
+  container_name: arkisland
+  image: arkserver
+  environment:
+    - SESSIONNAME=Ark Docker The Island 1
+    - SERVERMAP=TheIsland
+    - SERVERPASSWORD=whynot
+    - ADMINPASSWORD=howcome
+    - BACKUPONSTART=1
+    - UPDATEONSTART=1
+    - TZ=America/New_York
+    - GID=1000
+    - UID=1000
+  volumes:
+    - /my/path/to/ark:/ark
+  ports:
+   - 7778:7778/udp
+   - 7778:7778
+   - 27015:27015/udp
+   - 27015:27015
+   - 32330:32330
+  container_name: arkscorchedearth
+  image: arkserver
+  environment:
+    - SESSIONNAME=Ark Docker Scorched Earth 2
+    - SERVERMAP=ScorchedEarth
+    - SERVERPASSWORD=whynot
+    - ADMINPASSWORD=howcome
+    - BACKUPONSTART=1
+    - UPDATEONSTART=1
+    - TZ=America/New_York
+    - GID=1000
+    - UID=1000
+  volumes:
+    - /my/path/to/ark:/ark
+  ports:
+   - 7778:7778/udp
+   - 7778:7778
+   - 27015:27015/udp
+   - 27015:27015
+   - 32330:32330
+  container_name: arkabberation
+  image: arkserver
+  environment:
+    - SESSIONNAME=Ark Docker Abberation 3
+    - SERVERMAP=Abberation
+    - SERVERPASSWORD=whynot
+    - ADMINPASSWORD=howcome
+    - BACKUPONSTART=1
+    - UPDATEONSTART=1
+    - TZ=America/New_York
+    - GID=1000
+    - UID=1000
+  volumes:
+    - /my/path/to/ark:/ark
+  ports:
+   - 7778:7778/udp
+   - 7778:7778
+   - 27015:27015/udp
+   - 27015:27015
+   - 32330:32330
+  container_name: arkextinction
+  image: arkserver
+  environment:
+    - SESSIONNAME=Ark Docker Extinction 4
+    - SERVERMAP=Extinction
+    - SERVERPASSWORD=whynot
+    - ADMINPASSWORD=howcome
+    - BACKUPONSTART=1
+    - UPDATEONSTART=1
+    - TZ=America/New_York
+    - GID=1000
+    - UID=1000
+  volumes:
+    - /my/path/to/ark:/ark
+  ports:
+   - 7778:7778/udp
+   - 7778:7778
+   - 27015:27015/udp
+   - 27015:27015
+   - 32330:32330
+ container_name: arkcenter
+  image: arkserver
+  environment:
+    - SESSIONNAME=Ark Docker The Center
+    - SERVERMAP=TheCenter
+    - SERVERPASSWORD=whynot
+    - ADMINPASSWORD=howcome
+    - BACKUPONSTART=1
+    - UPDATEONSTART=1
+    - TZ=America/New_York
+    - GID=1000
+    - UID=1000
+  volumes:
+    - /my/path/to/ark:/ark
+  ports:
+   - 7778:7778/udp
+   - 7778:7778
+   - 27015:27015/udp
+   - 27015:27015
+   - 32330:32330
+  container_name: arkragnarok
+  image: arkserver
+  environment:
+    - SESSIONNAME=Ark Docker Ragnarock
+    - SERVERMAP=Ragnarock
+    - SERVERPASSWORD=whynot
+    - ADMINPASSWORD=howcome
+    - BACKUPONSTART=1
+    - UPDATEONSTART=1
+    - TZ=America/New_York
+    - GID=1000
+    - UID=1000
+  volumes:
+    - /my/path/to/ark:/ark
+  ports:
+   - 7778:7778/udp
+   - 7778:7778
+   - 27015:27015/udp
+   - 27015:27015
+   - 32330:32330
+  container_name: arkvalguero
+  image: arkserver
+  environment:
+    - SESSIONNAME=Ark Docker Valguero
+    - SERVERMAP=Valguero
+    - SERVERPASSWORD=whynot
+    - ADMINPASSWORD=howcome
+    - BACKUPONSTART=1
+    - UPDATEONSTART=1
+    - TZ=America/New_York
+    - GID=1000
+    - UID=1000
+  volumes:
+    - /my/path/to/ark:/ark
+  ports:
+   - 7778:7778/udp
+   - 7778:7778
+   - 27015:27015/udp
+   - 27015:27015
+   - 32330:32330  
+  container_name: arkcrystalisle
+  image: arkserver
+  environment:
+    - SESSIONNAME=Ark Docker Crystal Isle
+    - SERVERMAP=CrystalIsle
+    - SERVERPASSWORD=whynot
+    - ADMINPASSWORD=howcome
+    - BACKUPONSTART=1
+    - UPDATEONSTART=1
+    - TZ=America/New_York
+    - GID=1000
+    - UID=1000
+  volumes:
+    - /my/path/to/ark:/ark
+  ports:
+   - 7778:7778/udp
+   - 7778:7778
+   - 27015:27015/udp
+   - 27015:27015
+   - 32330:32330
+  container_name: arkgenessione
+  image: arkserver
+  environment:
+    - SESSIONNAME=Ark Docker Genesis One
+    - SERVERMAP=Genesis One
+    - SERVERPASSWORD=whynot
+    - ADMINPASSWORD=howcome
+    - BACKUPONSTART=1
+    - UPDATEONSTART=1
+    - TZ=America/New_York
+    - GID=1000
+    - UID=1000
+  volumes:
+    - /my/path/to/ark:/ark
+  ports:
+   - 7778:7778/udp
+   - 7778:7778
+   - 27015:27015/udp
+   - 27015:27015
+   - 32330:32330
